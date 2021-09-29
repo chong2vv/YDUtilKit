@@ -1,6 +1,6 @@
 {
   "name": "YDUtilKit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "常用工具库",
   "homepage": "https://github.com/chong2vv/YDUtilKit",
   "license": "MIT",
@@ -12,14 +12,14 @@
   },
   "source": {
     "git": "https://github.com/chong2vv/YDUtilKit.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
+  "source_files": "YDUtilKit/*",
   "requires_arc": true,
   "frameworks": [
     "Foundation",
     "UIKit"
   ],
-  "source_files": "YDUtilKit/*",
   "subspecs": [
     {
       "name": "YDFoundation",

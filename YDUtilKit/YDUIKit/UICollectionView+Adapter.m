@@ -6,7 +6,6 @@
 //
 
 #import "UICollectionView+Adapter.h"
-#import "ArtUIDefine.h"
 
 @implementation UICollectionView (Adapter)
 
