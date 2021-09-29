@@ -32,14 +32,20 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'YDFoundation' do |fd_ss|
       fd_ss.source_files = "YDUtilKit/YDFoundation/**/*"
+      fd_ss.dependency 'YDUtilKit/YDBaseUI'
+      fd_ss.dependency 'YDUtilKit/YDUIKit'
   end
 
   spec.subspec 'YDUIKit' do |uk_ss|
       uk_ss.source_files = "YDUtilKit/YDUIKit/**/*"
+      uk_ss.dependency 'YDUtilKit/YDBaseUI'
+      uk_ss.dependency 'YDUtilKit/YDFoundation'
   end
   
   spec.subspec 'YDBaseUI' do |bu_ss|
       bu_ss.source_files = "YDUtilKit/YDBaseUI/**/*"
+      bu_ss.dependency 'YDUtilKit/YDUIKit'
+      bu_ss.dependency 'YDUtilKit/YDFoundation'
   end
 
   spec.requires_arc = true
