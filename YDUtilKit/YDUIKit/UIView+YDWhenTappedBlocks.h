@@ -9,7 +9,22 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (YDWhenTappedBlocks)
+typedef void (^YDWhenTappedBlock)(void);
+
+@interface UIView (YDWhenTappedBlocks)<UIGestureRecognizerDelegate>
+
+- (void)whenTapped:(YDWhenTappedBlock)block;
+- (void)whenDoubleTapped:(YDWhenTappedBlock)block;
+- (void)whenFiveTapped:(YDWhenTappedBlock)block;
+- (void)whenTwoFingerTapped:(YDWhenTappedBlock)block;
+- (void)whenTouchedDown:(YDWhenTappedBlock)block;
+- (void)whenTouchedUp:(YDWhenTappedBlock)block;
+
+// 单击 需设置 whenTapped
+- (void)viewWasTapped;
+
+// 提供给画室的 head 点击响应使用
+- (void)viewWasTappedPoint:(CGPoint)point;
 
 @end
 

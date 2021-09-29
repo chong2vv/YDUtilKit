@@ -1,0 +1,22 @@
+PODS:
+  - YDUtilKit (0.0.1):
+    - YDUtilKit/YDBaseUI (= 0.0.1)
+    - YDUtilKit/YDFoundation (= 0.0.1)
+    - YDUtilKit/YDUIKit (= 0.0.1)
+  - YDUtilKit/YDBaseUI (0.0.1)
+  - YDUtilKit/YDFoundation (0.0.1)
+  - YDUtilKit/YDUIKit (0.0.1)
+
+DEPENDENCIES:
+  - YDUtilKit (from `./YDUtilKit/YDUtilKit.podspec`)
+
+EXTERNAL SOURCES:
+  YDUtilKit:
+    :path: "./YDUtilKit/YDUtilKit.podspec"
+
+SPEC CHECKSUMS:
+  YDUtilKit: af054e39f447d6c1a11283062a8d1072ce540a57
+
+PODFILE CHECKSUM: dd81f30dd75750ad093be890d4ded59beb445920
+
+COCOAPODS: 1.10.0
