@@ -27,7 +27,15 @@
     },
     {
       "name": "YDUIKit",
-      "source_files": "YDUtilKit/YDUIKit/**/*"
+      "source_files": "YDUtilKit/YDUIKit/**/*",
+      "dependencies": {
+        "YDUtilKit/YDBaseUI": [
+
+        ],
+        "YDUtilKit/YDFoundation": [
+
+        ]
+      }
     },
     {
       "name": "YDBaseUI",

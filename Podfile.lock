@@ -5,7 +5,9 @@ PODS:
     - YDUtilKit/YDUIKit (= 0.0.2)
   - YDUtilKit/YDBaseUI (0.0.2)
   - YDUtilKit/YDFoundation (0.0.2)
-  - YDUtilKit/YDUIKit (0.0.2)
+  - YDUtilKit/YDUIKit (0.0.2):
+    - YDUtilKit/YDBaseUI
+    - YDUtilKit/YDFoundation
 
 DEPENDENCIES:
   - YDUtilKit (from `./YDUtilKit/YDUtilKit.podspec`)
@@ -15,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "./YDUtilKit/YDUtilKit.podspec"
 
 SPEC CHECKSUMS:
-  YDUtilKit: 6a75cb4b47a37d8eb85dd4bb386ddb615eb15a02
+  YDUtilKit: 50e1d1a31db3a19be54682f643acc0ede79f05f3
 
 PODFILE CHECKSUM: dd81f30dd75750ad093be890d4ded59beb445920
 
