@@ -16,15 +16,19 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YDUtilKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "常用工具库"
 
   spec.homepage     = "https://github.com/chong2vv/YDUtilKit"
+  
 
   spec.license      = "MIT"
   spec.author             = { "王远东" => "chong2vv@gmail.com" }
 
   spec.platform     = :ios, "9.0"
+  
+  spec.source       = { :git => "https://github.com/chong2vv/YDUtilKit.git", :tag => "#{spec.version}" }
+  spec.source_files = "YDUtilKit/*"
 
   spec.subspec 'YDFoundation' do |fd_ss|
       fd_ss.source_files = "YDUtilKit/YDFoundation/**/*"
@@ -38,9 +42,7 @@ Pod::Spec.new do |spec|
       bu_ss.source_files = "YDUtilKit/YDBaseUI/**/*"
   end
 
-  spec.source       = { :git => "https://github.com/chong2vv/YDUtilKit.git", :tag => "#{spec.version}" }
   spec.requires_arc = true
   spec.frameworks = "Foundation", "UIKit"
-  spec.source_files = "YDUtilKit/*"
 
 end

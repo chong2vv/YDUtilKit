@@ -129,7 +129,7 @@
 		15850BFA27046A5D002F79B5 /* UITableView+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+YDCommon.m"; sourceTree = "<group>"; };
 		15850BFB27046A5D002F79B5 /* UIScrollView+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YDCommon.h"; sourceTree = "<group>"; };
 		15850BFC27046A5D002F79B5 /* UIImage+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YDCommon.m"; sourceTree = "<group>"; };
-		15850C1627046B24002F79B5 /* YDUtilKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YDUtilKit.podspec; sourceTree = "<group>"; };
+		15850C1627046B24002F79B5 /* YDUtilKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YDUtilKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		15850C1C27046FFC002F79B5 /* NSFileManager+YDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+YDCommon.h"; sourceTree = "<group>"; };
 		15850C1D27046FFC002F79B5 /* NSFileManager+YDCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+YDCommon.m"; sourceTree = "<group>"; };
 		15850C2427047115002F79B5 /* YDUIKitCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUIKitCategory.h; sourceTree = "<group>"; };
