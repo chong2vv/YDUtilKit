@@ -5,7 +5,7 @@
 //  Copyright 2011 Rubber Duck Software. All rights reserved.
 //
 
-#import "UIView+WhenTappedBlocks.h"
+#import "UIView+YDWhenTappedBlocks.h"
 #import <objc/runtime.h>
 
 @interface UIView (YDWhenTappedBlocks_Private)
