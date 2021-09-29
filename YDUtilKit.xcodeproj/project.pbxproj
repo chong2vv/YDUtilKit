@@ -57,10 +57,6 @@
 		15850C352704778B002F79B5 /* UIView+YDQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850C332704778B002F79B5 /* UIView+YDQRCode.m */; };
 		15850C3827047835002F79B5 /* UITextView+YDPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C3627047835002F79B5 /* UITextView+YDPlaceholder.h */; };
 		15850C3927047835002F79B5 /* UITextView+YDPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850C3727047835002F79B5 /* UITextView+YDPlaceholder.m */; };
-		15850C3E27047A5E002F79B5 /* UITableView+Adapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C3A27047A5D002F79B5 /* UITableView+Adapter.h */; };
-		15850C3F27047A5E002F79B5 /* UICollectionView+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850C3B27047A5D002F79B5 /* UICollectionView+Adapter.m */; };
-		15850C4027047A5E002F79B5 /* UICollectionView+Adapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C3C27047A5E002F79B5 /* UICollectionView+Adapter.h */; };
-		15850C4127047A5E002F79B5 /* UITableView+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850C3D27047A5E002F79B5 /* UITableView+Adapter.m */; };
 		15850C4427047A93002F79B5 /* YDBaseUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C4327047A93002F79B5 /* YDBaseUI.h */; };
 		15850C4727047B4A002F79B5 /* YDBaseUIDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C4527047B4A002F79B5 /* YDBaseUIDefine.h */; };
 		15850C4827047B4A002F79B5 /* YDBaseUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850C4627047B4A002F79B5 /* YDBaseUIDefine.m */; };
@@ -143,10 +139,6 @@
 		15850C332704778B002F79B5 /* UIView+YDQRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDQRCode.m"; sourceTree = "<group>"; };
 		15850C3627047835002F79B5 /* UITextView+YDPlaceholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+YDPlaceholder.h"; sourceTree = "<group>"; };
 		15850C3727047835002F79B5 /* UITextView+YDPlaceholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+YDPlaceholder.m"; sourceTree = "<group>"; };
-		15850C3A27047A5D002F79B5 /* UITableView+Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Adapter.h"; sourceTree = "<group>"; };
-		15850C3B27047A5D002F79B5 /* UICollectionView+Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Adapter.m"; sourceTree = "<group>"; };
-		15850C3C27047A5E002F79B5 /* UICollectionView+Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Adapter.h"; sourceTree = "<group>"; };
-		15850C3D27047A5E002F79B5 /* UITableView+Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Adapter.m"; sourceTree = "<group>"; };
 		15850C4327047A93002F79B5 /* YDBaseUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseUI.h; sourceTree = "<group>"; };
 		15850C4527047B4A002F79B5 /* YDBaseUIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseUIDefine.h; sourceTree = "<group>"; };
 		15850C4627047B4A002F79B5 /* YDBaseUIDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseUIDefine.m; sourceTree = "<group>"; };
@@ -297,10 +289,6 @@
 				15850C3727047835002F79B5 /* UITextView+YDPlaceholder.m */,
 				15850BF327046A5D002F79B5 /* UIScrollView+YDCommon.m */,
 				15850BFB27046A5D002F79B5 /* UIScrollView+YDCommon.h */,
-				15850C3C27047A5E002F79B5 /* UICollectionView+Adapter.h */,
-				15850C3B27047A5D002F79B5 /* UICollectionView+Adapter.m */,
-				15850C3A27047A5D002F79B5 /* UITableView+Adapter.h */,
-				15850C3D27047A5E002F79B5 /* UITableView+Adapter.m */,
 				15850BF427046A5D002F79B5 /* UITableView+YDCommon.h */,
 				15850BFA27046A5D002F79B5 /* UITableView+YDCommon.m */,
 				15850BF727046A5D002F79B5 /* UIColor+YDCommon.h */,
@@ -358,7 +346,6 @@
 				15850C4427047A93002F79B5 /* YDBaseUI.h in Headers */,
 				15850C0927046A5D002F79B5 /* UIView+YDCommon.h in Headers */,
 				15850C0727046A5D002F79B5 /* UIControl+YDCommon.h in Headers */,
-				15850C4027047A5E002F79B5 /* UICollectionView+Adapter.h in Headers */,
 				15850BA327046736002F79B5 /* YDUtilKit.h in Headers */,
 				15850C2827047276002F79B5 /* NSDictionary+YDCommon.h in Headers */,
 				15850C4727047B4A002F79B5 /* YDBaseUIDefine.h in Headers */,
@@ -368,7 +355,6 @@
 				15850C1427046A5D002F79B5 /* UIScrollView+YDCommon.h in Headers */,
 				15850C3027047617002F79B5 /* UIView+YDWhenTappedBlocks.h in Headers */,
 				15850C0427046A5D002F79B5 /* NSString+YDCommon.h in Headers */,
-				15850C3E27047A5E002F79B5 /* UITableView+Adapter.h in Headers */,
 				15850C0F27046A5D002F79B5 /* UITextField+YDCommon.h in Headers */,
 				15850C0527046A5D002F79B5 /* NSData+YDCommon.h in Headers */,
 				15850BFD27046A5D002F79B5 /* YDFoundationCategory.h in Headers */,
@@ -576,9 +562,7 @@
 				15850C1127046A5D002F79B5 /* UIView+YDCommon.m in Sources */,
 				15850C2927047276002F79B5 /* NSDictionary+YDCommon.m in Sources */,
 				15850C1527046A5D002F79B5 /* UIImage+YDCommon.m in Sources */,
-				15850C3F27047A5E002F79B5 /* UICollectionView+Adapter.m in Sources */,
 				15850C4827047B4A002F79B5 /* YDBaseUIDefine.m in Sources */,
-				15850C4127047A5E002F79B5 /* UITableView+Adapter.m in Sources */,
 				15850C0E27046A5D002F79B5 /* UIDevice+YDCommon.m in Sources */,
 				15850C2D270475D5002F79B5 /* UIWindow+YDScreenShot.m in Sources */,
 				15850C1227046A5D002F79B5 /* UIControl+YDCommon.m in Sources */,
