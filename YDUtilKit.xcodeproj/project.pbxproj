@@ -43,7 +43,6 @@
 		15850C1327046A5D002F79B5 /* UITableView+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850BFA27046A5D002F79B5 /* UITableView+YDCommon.m */; };
 		15850C1427046A5D002F79B5 /* UIScrollView+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850BFB27046A5D002F79B5 /* UIScrollView+YDCommon.h */; };
 		15850C1527046A5D002F79B5 /* UIImage+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850BFC27046A5D002F79B5 /* UIImage+YDCommon.m */; };
-		15850C1727046B24002F79B5 /* YDUtilKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 15850C1627046B24002F79B5 /* YDUtilKit.podspec */; };
 		15850C1E27046FFC002F79B5 /* NSFileManager+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C1C27046FFC002F79B5 /* NSFileManager+YDCommon.h */; };
 		15850C1F27046FFC002F79B5 /* NSFileManager+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850C1D27046FFC002F79B5 /* NSFileManager+YDCommon.m */; };
 		15850C2527047115002F79B5 /* YDUIKitCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C2427047115002F79B5 /* YDUIKitCategory.h */; };
@@ -490,7 +489,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15850C1727046B24002F79B5 /* YDUtilKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
