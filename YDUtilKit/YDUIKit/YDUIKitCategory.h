@@ -20,5 +20,3 @@
 #import "UIView+YDWhenTappedBlocks.h"
 #import "UIView+YDQRCode.h"
 #import "UITextView+YDPlaceholder.h"
-#import "UITableView+Adapter.h"
-#import "UICollectionView+Adapter.h"
