@@ -7,7 +7,6 @@
 
 #import "UILabel+YDAddtion.h"
 #import <CoreText/CoreText.h>
-#import "UITapGestureRecognizer+Addtion.h"
 #import <objc/runtime.h>
 
 @implementation UILabel (YDAddtion)

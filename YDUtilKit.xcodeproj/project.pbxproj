@@ -67,7 +67,8 @@
 		15850C4427047A93002F79B5 /* YDBaseUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C4327047A93002F79B5 /* YDBaseUI.h */; };
 		15850C4727047B4A002F79B5 /* YDBaseUIDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C4527047B4A002F79B5 /* YDBaseUIDefine.h */; };
 		15850C4827047B4A002F79B5 /* YDBaseUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850C4627047B4A002F79B5 /* YDBaseUIDefine.m */; };
-		40B0AA689861A20ECBD2C06A /* Pods_YDUtilKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F39DBCE4609B115C1F64E31 /* Pods_YDUtilKitDemo.framework */; };
+		1585AA2228ABFFD60022FE9E /* YDUtilKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */; };
+		D925A7C13E8B4BF7CC5BEE05 /* libPods-Demo-YDUtilKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE3D810411DA31388DBE507 /* libPods-Demo-YDUtilKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,7 +141,6 @@
 		15850BFA27046A5D002F79B5 /* UITableView+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+YDCommon.m"; sourceTree = "<group>"; };
 		15850BFB27046A5D002F79B5 /* UIScrollView+YDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YDCommon.h"; sourceTree = "<group>"; };
 		15850BFC27046A5D002F79B5 /* UIImage+YDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YDCommon.m"; sourceTree = "<group>"; };
-		15850C1627046B24002F79B5 /* YDUtilKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YDUtilKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		15850C1C27046FFC002F79B5 /* NSFileManager+YDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+YDCommon.h"; sourceTree = "<group>"; };
 		15850C1D27046FFC002F79B5 /* NSFileManager+YDCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+YDCommon.m"; sourceTree = "<group>"; };
 		15850C2427047115002F79B5 /* YDUIKitCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUIKitCategory.h; sourceTree = "<group>"; };
@@ -157,7 +157,10 @@
 		15850C4327047A93002F79B5 /* YDBaseUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseUI.h; sourceTree = "<group>"; };
 		15850C4527047B4A002F79B5 /* YDBaseUIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseUIDefine.h; sourceTree = "<group>"; };
 		15850C4627047B4A002F79B5 /* YDBaseUIDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseUIDefine.m; sourceTree = "<group>"; };
-		9F39DBCE4609B115C1F64E31 /* Pods_YDUtilKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDUtilKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = YDUtilKit.podspec; sourceTree = SOURCE_ROOT; };
+		5CE3D810411DA31388DBE507 /* libPods-Demo-YDUtilKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDUtilKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4065DA1E84A738543FE9A0 /* Pods-Demo-YDUtilKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKitDemo/Pods-Demo-YDUtilKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DAF6AE710CB88B0F00AC41B7 /* Pods-Demo-YDUtilKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKitDemo.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKitDemo/Pods-Demo-YDUtilKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DDA73BDC058B98412C628546 /* Pods-YDUtilKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDUtilKitDemo.release.xcconfig"; path = "Target Support Files/Pods-YDUtilKitDemo/Pods-YDUtilKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EDDD737B3EC6EF025377391A /* Pods-YDUtilKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDUtilKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-YDUtilKitDemo/Pods-YDUtilKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,7 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B0AA689861A20ECBD2C06A /* Pods_YDUtilKitDemo.framework in Frameworks */,
+				D925A7C13E8B4BF7CC5BEE05 /* libPods-Demo-YDUtilKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +234,7 @@
 		15850B9F27046736002F79B5 /* YDUtilKit */ = {
 			isa = PBXGroup;
 			children = (
-				15850C1627046B24002F79B5 /* YDUtilKit.podspec */,
+				1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */,
 				15850BA027046736002F79B5 /* YDUtilKit.h */,
 				15850BE327046A5D002F79B5 /* YDFoundation */,
 				15850C4227047A73002F79B5 /* YDBaseUI */,
@@ -349,6 +352,8 @@
 			children = (
 				EDDD737B3EC6EF025377391A /* Pods-YDUtilKitDemo.debug.xcconfig */,
 				DDA73BDC058B98412C628546 /* Pods-YDUtilKitDemo.release.xcconfig */,
+				6D4065DA1E84A738543FE9A0 /* Pods-Demo-YDUtilKitDemo.debug.xcconfig */,
+				DAF6AE710CB88B0F00AC41B7 /* Pods-Demo-YDUtilKitDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -356,7 +361,7 @@
 		94807897D1F87C37B7A10C32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F39DBCE4609B115C1F64E31 /* Pods_YDUtilKitDemo.framework */,
+				5CE3D810411DA31388DBE507 /* libPods-Demo-YDUtilKitDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -525,6 +530,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1585AA2228ABFFD60022FE9E /* YDUtilKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +576,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YDUtilKitDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Demo-YDUtilKitDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -849,7 +855,7 @@
 		};
 		15850BDA270468E1002F79B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDDD737B3EC6EF025377391A /* Pods-YDUtilKitDemo.debug.xcconfig */;
+			baseConfigurationReference = 6D4065DA1E84A738543FE9A0 /* Pods-Demo-YDUtilKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -878,7 +884,7 @@
 		};
 		15850BDB270468E1002F79B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDA73BDC058B98412C628546 /* Pods-YDUtilKitDemo.release.xcconfig */;
+			baseConfigurationReference = DAF6AE710CB88B0F00AC41B7 /* Pods-Demo-YDUtilKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

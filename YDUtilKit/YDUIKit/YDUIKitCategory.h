@@ -22,3 +22,4 @@
 #import "UITextView+YDPlaceholder.h"
 #import "NSString+YDLabelHeigh.h"
 #import "UILabel+YDAddtion.h"
+#import "UITapGestureRecognizer+YDAddtion.h"

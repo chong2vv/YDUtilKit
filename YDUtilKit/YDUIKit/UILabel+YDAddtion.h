@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UITapGestureRecognizer+YDAddtion.h"
 
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^TapAction)(void);

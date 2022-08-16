@@ -12,15 +12,15 @@ PODS:
     - YDUtilKit/YDFoundation
 
 DEPENDENCIES:
-  - YDUtilKit (from `./YDUtilKit/YDUtilKit.podspec`)
+  - YDUtilKit (from `./YDUtilKit.podspec`)
 
 EXTERNAL SOURCES:
   YDUtilKit:
-    :path: "./YDUtilKit/YDUtilKit.podspec"
+    :path: "./YDUtilKit.podspec"
 
 SPEC CHECKSUMS:
   YDUtilKit: 507af6e7f0dd675b594b2dd4888874debac401b3
 
-PODFILE CHECKSUM: dd81f30dd75750ad093be890d4ded59beb445920
+PODFILE CHECKSUM: 094a44912afb963eb124356feabe15222a130e1c
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.0.beta.2
