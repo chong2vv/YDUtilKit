@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		157DCF7728AB47FF00D6986A /* YDStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 157DCF7528AB47FF00D6986A /* YDStack.h */; };
+		157DCF7828AB47FF00D6986A /* YDStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DCF7628AB47FF00D6986A /* YDStack.m */; };
+		157DCF7B28AB782400D6986A /* UILabel+YDAddtion.h in Headers */ = {isa = PBXBuildFile; fileRef = 157DCF7928AB782300D6986A /* UILabel+YDAddtion.h */; };
+		157DCF7C28AB782400D6986A /* UILabel+YDAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DCF7A28AB782300D6986A /* UILabel+YDAddtion.m */; };
+		157DCF7F28AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.h in Headers */ = {isa = PBXBuildFile; fileRef = 157DCF7D28AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.h */; };
+		157DCF8028AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DCF7E28AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.m */; };
+		157DCF8328AB79D500D6986A /* NSString+YDLabelHeigh.h in Headers */ = {isa = PBXBuildFile; fileRef = 157DCF8128AB79D500D6986A /* NSString+YDLabelHeigh.h */; };
+		157DCF8428AB79D500D6986A /* NSString+YDLabelHeigh.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DCF8228AB79D500D6986A /* NSString+YDLabelHeigh.m */; };
 		15850BA327046736002F79B5 /* YDUtilKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850BA027046736002F79B5 /* YDUtilKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15850BB1270468DF002F79B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850BB0270468DF002F79B5 /* AppDelegate.m */; };
 		15850BB4270468DF002F79B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850BB3270468DF002F79B5 /* SceneDelegate.m */; };
@@ -80,6 +88,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		157DCF7528AB47FF00D6986A /* YDStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDStack.h; sourceTree = "<group>"; };
+		157DCF7628AB47FF00D6986A /* YDStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDStack.m; sourceTree = "<group>"; };
+		157DCF7928AB782300D6986A /* UILabel+YDAddtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YDAddtion.h"; sourceTree = "<group>"; };
+		157DCF7A28AB782300D6986A /* UILabel+YDAddtion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YDAddtion.m"; sourceTree = "<group>"; };
+		157DCF7D28AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+YDAddtion.h"; sourceTree = "<group>"; };
+		157DCF7E28AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+YDAddtion.m"; sourceTree = "<group>"; };
+		157DCF8128AB79D500D6986A /* NSString+YDLabelHeigh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YDLabelHeigh.h"; sourceTree = "<group>"; };
+		157DCF8228AB79D500D6986A /* NSString+YDLabelHeigh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YDLabelHeigh.m"; sourceTree = "<group>"; };
 		15850B9D27046736002F79B5 /* YDUtilKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDUtilKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15850BA027046736002F79B5 /* YDUtilKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUtilKit.h; sourceTree = "<group>"; };
 		15850BAD270468DF002F79B5 /* YDUtilKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDUtilKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +195,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		157DCF7428AB478600D6986A /* YDTools */ = {
+			isa = PBXGroup;
+			children = (
+				157DCF7528AB47FF00D6986A /* YDStack.h */,
+				157DCF7628AB47FF00D6986A /* YDStack.m */,
+			);
+			path = YDTools;
+			sourceTree = "<group>";
+		};
 		15850B9327046736002F79B5 = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +236,7 @@
 				15850BE327046A5D002F79B5 /* YDFoundation */,
 				15850C4227047A73002F79B5 /* YDBaseUI */,
 				15850BEC27046A5D002F79B5 /* YDUIKit */,
+				157DCF7428AB478600D6986A /* YDTools */,
 			);
 			path = YDUtilKit;
 			sourceTree = "<group>";
@@ -276,6 +302,12 @@
 				15850C2427047115002F79B5 /* YDUIKitCategory.h */,
 				15850BF027046A5D002F79B5 /* UIView+YDCommon.h */,
 				15850BF827046A5D002F79B5 /* UIView+YDCommon.m */,
+				157DCF7928AB782300D6986A /* UILabel+YDAddtion.h */,
+				157DCF7A28AB782300D6986A /* UILabel+YDAddtion.m */,
+				157DCF8128AB79D500D6986A /* NSString+YDLabelHeigh.h */,
+				157DCF8228AB79D500D6986A /* NSString+YDLabelHeigh.m */,
+				157DCF7D28AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.h */,
+				157DCF7E28AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.m */,
 				15850C2E27047617002F79B5 /* UIView+YDWhenTappedBlocks.h */,
 				15850C2F27047617002F79B5 /* UIView+YDWhenTappedBlocks.m */,
 				15850BF627046A5D002F79B5 /* UITextField+YDCommon.h */,
@@ -338,7 +370,9 @@
 			files = (
 				15850C0627046A5D002F79B5 /* UIDevice+YDCommon.h in Headers */,
 				15850BFE27046A5D002F79B5 /* NSArray+YDCommon.h in Headers */,
+				157DCF7728AB47FF00D6986A /* YDStack.h in Headers */,
 				15850C342704778B002F79B5 /* UIView+YDQRCode.h in Headers */,
+				157DCF8328AB79D500D6986A /* NSString+YDLabelHeigh.h in Headers */,
 				15850C0D27046A5D002F79B5 /* UITableView+YDCommon.h in Headers */,
 				15850C0B27046A5D002F79B5 /* UIImage+YDCommon.h in Headers */,
 				15850C3827047835002F79B5 /* UITextView+YDPlaceholder.h in Headers */,
@@ -350,9 +384,11 @@
 				15850C4727047B4A002F79B5 /* YDBaseUIDefine.h in Headers */,
 				15850C1E27046FFC002F79B5 /* NSFileManager+YDCommon.h in Headers */,
 				15850C2527047115002F79B5 /* YDUIKitCategory.h in Headers */,
+				157DCF7B28AB782400D6986A /* UILabel+YDAddtion.h in Headers */,
 				15850C1027046A5D002F79B5 /* UIColor+YDCommon.h in Headers */,
 				15850C1427046A5D002F79B5 /* UIScrollView+YDCommon.h in Headers */,
 				15850C3027047617002F79B5 /* UIView+YDWhenTappedBlocks.h in Headers */,
+				157DCF7F28AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.h in Headers */,
 				15850C0427046A5D002F79B5 /* NSString+YDCommon.h in Headers */,
 				15850C0F27046A5D002F79B5 /* UITextField+YDCommon.h in Headers */,
 				15850C0527046A5D002F79B5 /* NSData+YDCommon.h in Headers */,
@@ -560,9 +596,13 @@
 				15850C1127046A5D002F79B5 /* UIView+YDCommon.m in Sources */,
 				15850C2927047276002F79B5 /* NSDictionary+YDCommon.m in Sources */,
 				15850C1527046A5D002F79B5 /* UIImage+YDCommon.m in Sources */,
+				157DCF7C28AB782400D6986A /* UILabel+YDAddtion.m in Sources */,
 				15850C4827047B4A002F79B5 /* YDBaseUIDefine.m in Sources */,
+				157DCF8428AB79D500D6986A /* NSString+YDLabelHeigh.m in Sources */,
+				157DCF8028AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.m in Sources */,
 				15850C0E27046A5D002F79B5 /* UIDevice+YDCommon.m in Sources */,
 				15850C2D270475D5002F79B5 /* UIWindow+YDScreenShot.m in Sources */,
+				157DCF7828AB47FF00D6986A /* YDStack.m in Sources */,
 				15850C1227046A5D002F79B5 /* UIControl+YDCommon.m in Sources */,
 				15850C0C27046A5D002F79B5 /* UIScrollView+YDCommon.m in Sources */,
 				15850C0027046A5D002F79B5 /* NSString+YDCommon.m in Sources */,

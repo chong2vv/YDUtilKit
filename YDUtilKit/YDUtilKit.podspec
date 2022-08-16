@@ -43,6 +43,10 @@ Pod::Spec.new do |spec|
   spec.subspec 'YDBaseUI' do |bu_ss|
       bu_ss.source_files = "YDUtilKit/YDBaseUI/**/*"
   end
+  
+  spec.subspec 'YDTools' do |tl_ss|
+      tl_ss.source_files = "YDUtilKit/YDTools/**/*"
+  end
 
   spec.requires_arc = true
   spec.frameworks = "Foundation", "UIKit"
