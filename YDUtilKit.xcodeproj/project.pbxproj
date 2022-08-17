@@ -68,6 +68,15 @@
 		15850C4727047B4A002F79B5 /* YDBaseUIDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 15850C4527047B4A002F79B5 /* YDBaseUIDefine.h */; };
 		15850C4827047B4A002F79B5 /* YDBaseUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850C4627047B4A002F79B5 /* YDBaseUIDefine.m */; };
 		1585AA2228ABFFD60022FE9E /* YDUtilKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */; };
+		15C5BD5B28AC8E6C00E5B1EC /* YDTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD5A28AC8E6C00E5B1EC /* YDTools.h */; };
+		15C5BD5E28AC979700E5B1EC /* YDNetworkTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD5C28AC979700E5B1EC /* YDNetworkTools.h */; };
+		15C5BD5F28AC979700E5B1EC /* YDNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD5D28AC979700E5B1EC /* YDNetworkTools.m */; };
+		15C5BD6228ACBD4F00E5B1EC /* YDNumberSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD6028ACBD4F00E5B1EC /* YDNumberSender.h */; };
+		15C5BD6328ACBD4F00E5B1EC /* YDNumberSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD6128ACBD4F00E5B1EC /* YDNumberSender.m */; };
+		15C5BD6628ACBE6300E5B1EC /* YDVideoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD6428ACBE6300E5B1EC /* YDVideoTools.h */; };
+		15C5BD6728ACBE6300E5B1EC /* YDVideoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD6528ACBE6300E5B1EC /* YDVideoTools.m */; };
+		15C5BD6A28ACBFFE00E5B1EC /* NSObject+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD6828ACBFFE00E5B1EC /* NSObject+YDCommon.h */; };
+		15C5BD6B28ACBFFE00E5B1EC /* NSObject+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD6928ACBFFE00E5B1EC /* NSObject+YDCommon.m */; };
 		D925A7C13E8B4BF7CC5BEE05 /* libPods-Demo-YDUtilKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE3D810411DA31388DBE507 /* libPods-Demo-YDUtilKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -157,7 +166,16 @@
 		15850C4327047A93002F79B5 /* YDBaseUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseUI.h; sourceTree = "<group>"; };
 		15850C4527047B4A002F79B5 /* YDBaseUIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseUIDefine.h; sourceTree = "<group>"; };
 		15850C4627047B4A002F79B5 /* YDBaseUIDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseUIDefine.m; sourceTree = "<group>"; };
-		1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = YDUtilKit.podspec; sourceTree = SOURCE_ROOT; };
+		1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YDUtilKit.podspec; sourceTree = SOURCE_ROOT; };
+		15C5BD5A28AC8E6C00E5B1EC /* YDTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTools.h; sourceTree = "<group>"; };
+		15C5BD5C28AC979700E5B1EC /* YDNetworkTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNetworkTools.h; sourceTree = "<group>"; };
+		15C5BD5D28AC979700E5B1EC /* YDNetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNetworkTools.m; sourceTree = "<group>"; };
+		15C5BD6028ACBD4F00E5B1EC /* YDNumberSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNumberSender.h; sourceTree = "<group>"; };
+		15C5BD6128ACBD4F00E5B1EC /* YDNumberSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNumberSender.m; sourceTree = "<group>"; };
+		15C5BD6428ACBE6300E5B1EC /* YDVideoTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDVideoTools.h; sourceTree = "<group>"; };
+		15C5BD6528ACBE6300E5B1EC /* YDVideoTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDVideoTools.m; sourceTree = "<group>"; };
+		15C5BD6828ACBFFE00E5B1EC /* NSObject+YDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YDCommon.h"; sourceTree = "<group>"; };
+		15C5BD6928ACBFFE00E5B1EC /* NSObject+YDCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YDCommon.m"; sourceTree = "<group>"; };
 		5CE3D810411DA31388DBE507 /* libPods-Demo-YDUtilKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDUtilKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4065DA1E84A738543FE9A0 /* Pods-Demo-YDUtilKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKitDemo/Pods-Demo-YDUtilKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DAF6AE710CB88B0F00AC41B7 /* Pods-Demo-YDUtilKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKitDemo.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKitDemo/Pods-Demo-YDUtilKitDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -201,8 +219,15 @@
 		157DCF7428AB478600D6986A /* YDTools */ = {
 			isa = PBXGroup;
 			children = (
+				15C5BD5A28AC8E6C00E5B1EC /* YDTools.h */,
 				157DCF7528AB47FF00D6986A /* YDStack.h */,
 				157DCF7628AB47FF00D6986A /* YDStack.m */,
+				15C5BD5C28AC979700E5B1EC /* YDNetworkTools.h */,
+				15C5BD5D28AC979700E5B1EC /* YDNetworkTools.m */,
+				15C5BD6028ACBD4F00E5B1EC /* YDNumberSender.h */,
+				15C5BD6128ACBD4F00E5B1EC /* YDNumberSender.m */,
+				15C5BD6428ACBE6300E5B1EC /* YDVideoTools.h */,
+				15C5BD6528ACBE6300E5B1EC /* YDVideoTools.m */,
 			);
 			path = YDTools;
 			sourceTree = "<group>";
@@ -295,6 +320,8 @@
 				15850BE927046A5D002F79B5 /* NSDate+YDCommon.m */,
 				15850C1C27046FFC002F79B5 /* NSFileManager+YDCommon.h */,
 				15850C1D27046FFC002F79B5 /* NSFileManager+YDCommon.m */,
+				15C5BD6828ACBFFE00E5B1EC /* NSObject+YDCommon.h */,
+				15C5BD6928ACBFFE00E5B1EC /* NSObject+YDCommon.m */,
 			);
 			path = YDFoundation;
 			sourceTree = "<group>";
@@ -382,6 +409,8 @@
 				15850C0B27046A5D002F79B5 /* UIImage+YDCommon.h in Headers */,
 				15850C3827047835002F79B5 /* UITextView+YDPlaceholder.h in Headers */,
 				15850C4427047A93002F79B5 /* YDBaseUI.h in Headers */,
+				15C5BD5E28AC979700E5B1EC /* YDNetworkTools.h in Headers */,
+				15C5BD5B28AC8E6C00E5B1EC /* YDTools.h in Headers */,
 				15850C0927046A5D002F79B5 /* UIView+YDCommon.h in Headers */,
 				15850C0727046A5D002F79B5 /* UIControl+YDCommon.h in Headers */,
 				15850BA327046736002F79B5 /* YDUtilKit.h in Headers */,
@@ -389,9 +418,11 @@
 				15850C4727047B4A002F79B5 /* YDBaseUIDefine.h in Headers */,
 				15850C1E27046FFC002F79B5 /* NSFileManager+YDCommon.h in Headers */,
 				15850C2527047115002F79B5 /* YDUIKitCategory.h in Headers */,
+				15C5BD6A28ACBFFE00E5B1EC /* NSObject+YDCommon.h in Headers */,
 				157DCF7B28AB782400D6986A /* UILabel+YDAddtion.h in Headers */,
 				15850C1027046A5D002F79B5 /* UIColor+YDCommon.h in Headers */,
 				15850C1427046A5D002F79B5 /* UIScrollView+YDCommon.h in Headers */,
+				15C5BD6228ACBD4F00E5B1EC /* YDNumberSender.h in Headers */,
 				15850C3027047617002F79B5 /* UIView+YDWhenTappedBlocks.h in Headers */,
 				157DCF7F28AB787A00D6986A /* UITapGestureRecognizer+YDAddtion.h in Headers */,
 				15850C0427046A5D002F79B5 /* NSString+YDCommon.h in Headers */,
@@ -400,6 +431,7 @@
 				15850BFD27046A5D002F79B5 /* YDFoundationCategory.h in Headers */,
 				15850C0127046A5D002F79B5 /* NSDate+YDCommon.h in Headers */,
 				15850C2C270475D5002F79B5 /* UIWindow+YDScreenShot.h in Headers */,
+				15C5BD6628ACBE6300E5B1EC /* YDVideoTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +623,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15850C0327046A5D002F79B5 /* NSDate+YDCommon.m in Sources */,
+				15C5BD6B28ACBFFE00E5B1EC /* NSObject+YDCommon.m in Sources */,
 				15850C1F27046FFC002F79B5 /* NSFileManager+YDCommon.m in Sources */,
 				15850BFF27046A5D002F79B5 /* NSData+YDCommon.m in Sources */,
 				15850C0827046A5D002F79B5 /* UIColor+YDCommon.m in Sources */,
@@ -601,6 +634,8 @@
 				15850C1327046A5D002F79B5 /* UITableView+YDCommon.m in Sources */,
 				15850C1127046A5D002F79B5 /* UIView+YDCommon.m in Sources */,
 				15850C2927047276002F79B5 /* NSDictionary+YDCommon.m in Sources */,
+				15C5BD5F28AC979700E5B1EC /* YDNetworkTools.m in Sources */,
+				15C5BD6728ACBE6300E5B1EC /* YDVideoTools.m in Sources */,
 				15850C1527046A5D002F79B5 /* UIImage+YDCommon.m in Sources */,
 				157DCF7C28AB782400D6986A /* UILabel+YDAddtion.m in Sources */,
 				15850C4827047B4A002F79B5 /* YDBaseUIDefine.m in Sources */,
@@ -610,6 +645,7 @@
 				15850C2D270475D5002F79B5 /* UIWindow+YDScreenShot.m in Sources */,
 				157DCF7828AB47FF00D6986A /* YDStack.m in Sources */,
 				15850C1227046A5D002F79B5 /* UIControl+YDCommon.m in Sources */,
+				15C5BD6328ACBD4F00E5B1EC /* YDNumberSender.m in Sources */,
 				15850C0C27046A5D002F79B5 /* UIScrollView+YDCommon.m in Sources */,
 				15850C0027046A5D002F79B5 /* NSString+YDCommon.m in Sources */,
 				15850C352704778B002F79B5 /* UIView+YDQRCode.m in Sources */,

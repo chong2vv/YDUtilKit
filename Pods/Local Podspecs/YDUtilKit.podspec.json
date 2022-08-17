@@ -1,6 +1,6 @@
 {
   "name": "YDUtilKit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "常用工具库",
   "homepage": "https://github.com/chong2vv/YDUtilKit",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/chong2vv/YDUtilKit.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "source_files": "YDUtilKit/*",
   "requires_arc": true,
@@ -43,7 +43,15 @@
     },
     {
       "name": "YDTools",
-      "source_files": "YDUtilKit/YDTools/**/*"
+      "source_files": "YDUtilKit/YDTools/**/*",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "YDUtilKit/YDFoundation": [
+
+        ]
+      }
     }
   ]
 }

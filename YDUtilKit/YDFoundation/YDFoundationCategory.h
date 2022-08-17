@@ -14,3 +14,4 @@
 #import "NSArray+YDCommon.h"
 #import "NSDictionary+YDCommon.h"
 #import "NSString+YDCommon.h"
+#import "NSObject+YDCommon.h"

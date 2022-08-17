@@ -1,26 +1,48 @@
 PODS:
-  - YDUtilKit (0.0.5):
-    - YDUtilKit/YDBaseUI (= 0.0.5)
-    - YDUtilKit/YDFoundation (= 0.0.5)
-    - YDUtilKit/YDTools (= 0.0.5)
-    - YDUtilKit/YDUIKit (= 0.0.5)
-  - YDUtilKit/YDBaseUI (0.0.5)
-  - YDUtilKit/YDFoundation (0.0.5)
-  - YDUtilKit/YDTools (0.0.5)
-  - YDUtilKit/YDUIKit (0.0.5):
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - YDUtilKit (0.0.6):
+    - YDUtilKit/YDBaseUI (= 0.0.6)
+    - YDUtilKit/YDFoundation (= 0.0.6)
+    - YDUtilKit/YDTools (= 0.0.6)
+    - YDUtilKit/YDUIKit (= 0.0.6)
+  - YDUtilKit/YDBaseUI (0.0.6)
+  - YDUtilKit/YDFoundation (0.0.6)
+  - YDUtilKit/YDTools (0.0.6):
+    - AFNetworking
+    - YDUtilKit/YDFoundation
+  - YDUtilKit/YDUIKit (0.0.6):
     - YDUtilKit/YDBaseUI
     - YDUtilKit/YDFoundation
 
 DEPENDENCIES:
   - YDUtilKit (from `./YDUtilKit.podspec`)
 
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
 EXTERNAL SOURCES:
   YDUtilKit:
     :path: "./YDUtilKit.podspec"
 
 SPEC CHECKSUMS:
-  YDUtilKit: 507af6e7f0dd675b594b2dd4888874debac401b3
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  YDUtilKit: e9755d2a4d3be146cf46ff52a185ef032694b708
 
-PODFILE CHECKSUM: 094a44912afb963eb124356feabe15222a130e1c
+PODFILE CHECKSUM: 32e25d2812c058f9327ea063c0cfdf9914552792
 
-COCOAPODS: 1.11.0.beta.2
+COCOAPODS: 1.11.2

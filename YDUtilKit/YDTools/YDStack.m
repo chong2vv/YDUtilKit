@@ -23,6 +23,13 @@
     return _stackArray;
 }
 
+- (void)push:(id)obj {
+    if (obj == nil) {
+        return;
+    }
+    [self.stackArray addObject:obj];
+}
+
 - (id)popObj {
     if ([self isEmpty]) {
         return nil;
