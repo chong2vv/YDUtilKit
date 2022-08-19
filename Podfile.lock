@@ -14,17 +14,17 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - YDUtilKit (0.0.6):
-    - YDUtilKit/YDBaseUI (= 0.0.6)
-    - YDUtilKit/YDFoundation (= 0.0.6)
-    - YDUtilKit/YDTools (= 0.0.6)
-    - YDUtilKit/YDUIKit (= 0.0.6)
-  - YDUtilKit/YDBaseUI (0.0.6)
-  - YDUtilKit/YDFoundation (0.0.6)
-  - YDUtilKit/YDTools (0.0.6):
+  - YDUtilKit (0.0.7):
+    - YDUtilKit/YDBaseUI (= 0.0.7)
+    - YDUtilKit/YDFoundation (= 0.0.7)
+    - YDUtilKit/YDTools (= 0.0.7)
+    - YDUtilKit/YDUIKit (= 0.0.7)
+  - YDUtilKit/YDBaseUI (0.0.7)
+  - YDUtilKit/YDFoundation (0.0.7)
+  - YDUtilKit/YDTools (0.0.7):
     - AFNetworking
     - YDUtilKit/YDFoundation
-  - YDUtilKit/YDUIKit (0.0.6):
+  - YDUtilKit/YDUIKit (0.0.7):
     - YDUtilKit/YDBaseUI
     - YDUtilKit/YDFoundation
 
@@ -41,8 +41,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  YDUtilKit: e9755d2a4d3be146cf46ff52a185ef032694b708
+  YDUtilKit: 7e374da9316162e557d809baf91200877febf963
 
 PODFILE CHECKSUM: 32e25d2812c058f9327ea063c0cfdf9914552792
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.0.beta.2
