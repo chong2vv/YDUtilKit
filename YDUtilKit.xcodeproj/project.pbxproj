@@ -98,6 +98,8 @@
 /* Begin PBXFileReference section */
 		1560B2B12AEF91D3005EB33F /* YDKeyValueObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDKeyValueObserver.h; sourceTree = "<group>"; };
 		1560B2B22AEF91D3005EB33F /* YDKeyValueObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDKeyValueObserver.m; sourceTree = "<group>"; };
+		1560B2B52AEFA73B005EB33F /* AVAsset+YDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAsset+YDCommon.h"; sourceTree = "<group>"; };
+		1560B2B62AEFA73B005EB33F /* AVAsset+YDCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+YDCommon.m"; sourceTree = "<group>"; };
 		157DCF7528AB47FF00D6986A /* YDStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDStack.h; sourceTree = "<group>"; };
 		157DCF7628AB47FF00D6986A /* YDStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDStack.m; sourceTree = "<group>"; };
 		157DCF7928AB782300D6986A /* UILabel+YDAddtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YDAddtion.h"; sourceTree = "<group>"; };
@@ -320,6 +322,8 @@
 				15850C1D27046FFC002F79B5 /* NSFileManager+YDCommon.m */,
 				15C5BD6828ACBFFE00E5B1EC /* NSObject+YDCommon.h */,
 				15C5BD6928ACBFFE00E5B1EC /* NSObject+YDCommon.m */,
+				1560B2B52AEFA73B005EB33F /* AVAsset+YDCommon.h */,
+				1560B2B62AEFA73B005EB33F /* AVAsset+YDCommon.m */,
 			);
 			path = YDFoundation;
 			sourceTree = "<group>";
