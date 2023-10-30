@@ -15,3 +15,4 @@
 #import "NSDictionary+YDCommon.h"
 #import "NSString+YDCommon.h"
 #import "NSObject+YDCommon.h"
+#import "AVAsset+YDCommon.h"
