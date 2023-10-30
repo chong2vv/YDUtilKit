@@ -45,9 +45,6 @@
       "name": "YDTools",
       "source_files": "YDUtilKit/YDTools/**/*",
       "dependencies": {
-        "AFNetworking": [
-
-        ],
         "YDUtilKit/YDFoundation": [
 
         ]

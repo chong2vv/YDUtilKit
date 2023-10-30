@@ -1,19 +1,4 @@
 PODS:
-  - AFNetworking (4.0.1):
-    - AFNetworking/NSURLSession (= 4.0.1)
-    - AFNetworking/Reachability (= 4.0.1)
-    - AFNetworking/Security (= 4.0.1)
-    - AFNetworking/Serialization (= 4.0.1)
-    - AFNetworking/UIKit (= 4.0.1)
-  - AFNetworking/NSURLSession (4.0.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (4.0.1)
-  - AFNetworking/Security (4.0.1)
-  - AFNetworking/Serialization (4.0.1)
-  - AFNetworking/UIKit (4.0.1):
-    - AFNetworking/NSURLSession
   - YDUtilKit (0.0.7):
     - YDUtilKit/YDBaseUI (= 0.0.7)
     - YDUtilKit/YDFoundation (= 0.0.7)
@@ -22,7 +7,6 @@ PODS:
   - YDUtilKit/YDBaseUI (0.0.7)
   - YDUtilKit/YDFoundation (0.0.7)
   - YDUtilKit/YDTools (0.0.7):
-    - AFNetworking
     - YDUtilKit/YDFoundation
   - YDUtilKit/YDUIKit (0.0.7):
     - YDUtilKit/YDBaseUI
@@ -31,18 +15,13 @@ PODS:
 DEPENDENCIES:
   - YDUtilKit (from `./YDUtilKit.podspec`)
 
-SPEC REPOS:
-  trunk:
-    - AFNetworking
-
 EXTERNAL SOURCES:
   YDUtilKit:
     :path: "./YDUtilKit.podspec"
 
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  YDUtilKit: 7e374da9316162e557d809baf91200877febf963
+  YDUtilKit: 11e020455a0b6451fdf97461f6073ada7826716f
 
 PODFILE CHECKSUM: 32e25d2812c058f9327ea063c0cfdf9914552792
 
-COCOAPODS: 1.11.0.beta.2
+COCOAPODS: 1.14.2

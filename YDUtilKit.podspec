@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YDUtilKit"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "常用工具库"
 
   spec.homepage     = "https://github.com/chong2vv/YDUtilKit"
@@ -46,7 +46,6 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'YDTools' do |tl_ss|
       tl_ss.source_files = "YDUtilKit/YDTools/**/*"
-      tl_ss.dependency 'AFNetworking'
       tl_ss.dependency 'YDUtilKit/YDFoundation'
   end
 

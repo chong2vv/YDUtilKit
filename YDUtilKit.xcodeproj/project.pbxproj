@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -69,8 +69,6 @@
 		15850C4827047B4A002F79B5 /* YDBaseUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850C4627047B4A002F79B5 /* YDBaseUIDefine.m */; };
 		1585AA2228ABFFD60022FE9E /* YDUtilKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */; };
 		15C5BD5B28AC8E6C00E5B1EC /* YDTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD5A28AC8E6C00E5B1EC /* YDTools.h */; };
-		15C5BD5E28AC979700E5B1EC /* YDNetworkTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD5C28AC979700E5B1EC /* YDNetworkTools.h */; };
-		15C5BD5F28AC979700E5B1EC /* YDNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD5D28AC979700E5B1EC /* YDNetworkTools.m */; };
 		15C5BD6228ACBD4F00E5B1EC /* YDNumberSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD6028ACBD4F00E5B1EC /* YDNumberSender.h */; };
 		15C5BD6328ACBD4F00E5B1EC /* YDNumberSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD6128ACBD4F00E5B1EC /* YDNumberSender.m */; };
 		15C5BD6628ACBE6300E5B1EC /* YDVideoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD6428ACBE6300E5B1EC /* YDVideoTools.h */; };
@@ -98,6 +96,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1560B2B12AEF91D3005EB33F /* YDKeyValueObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDKeyValueObserver.h; sourceTree = "<group>"; };
+		1560B2B22AEF91D3005EB33F /* YDKeyValueObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDKeyValueObserver.m; sourceTree = "<group>"; };
 		157DCF7528AB47FF00D6986A /* YDStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDStack.h; sourceTree = "<group>"; };
 		157DCF7628AB47FF00D6986A /* YDStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDStack.m; sourceTree = "<group>"; };
 		157DCF7928AB782300D6986A /* UILabel+YDAddtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YDAddtion.h"; sourceTree = "<group>"; };
@@ -168,8 +168,6 @@
 		15850C4627047B4A002F79B5 /* YDBaseUIDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseUIDefine.m; sourceTree = "<group>"; };
 		1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YDUtilKit.podspec; sourceTree = SOURCE_ROOT; };
 		15C5BD5A28AC8E6C00E5B1EC /* YDTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTools.h; sourceTree = "<group>"; };
-		15C5BD5C28AC979700E5B1EC /* YDNetworkTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNetworkTools.h; sourceTree = "<group>"; };
-		15C5BD5D28AC979700E5B1EC /* YDNetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNetworkTools.m; sourceTree = "<group>"; };
 		15C5BD6028ACBD4F00E5B1EC /* YDNumberSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNumberSender.h; sourceTree = "<group>"; };
 		15C5BD6128ACBD4F00E5B1EC /* YDNumberSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNumberSender.m; sourceTree = "<group>"; };
 		15C5BD6428ACBE6300E5B1EC /* YDVideoTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDVideoTools.h; sourceTree = "<group>"; };
@@ -222,12 +220,12 @@
 				15C5BD5A28AC8E6C00E5B1EC /* YDTools.h */,
 				157DCF7528AB47FF00D6986A /* YDStack.h */,
 				157DCF7628AB47FF00D6986A /* YDStack.m */,
-				15C5BD5C28AC979700E5B1EC /* YDNetworkTools.h */,
-				15C5BD5D28AC979700E5B1EC /* YDNetworkTools.m */,
 				15C5BD6028ACBD4F00E5B1EC /* YDNumberSender.h */,
 				15C5BD6128ACBD4F00E5B1EC /* YDNumberSender.m */,
 				15C5BD6428ACBE6300E5B1EC /* YDVideoTools.h */,
 				15C5BD6528ACBE6300E5B1EC /* YDVideoTools.m */,
+				1560B2B12AEF91D3005EB33F /* YDKeyValueObserver.h */,
+				1560B2B22AEF91D3005EB33F /* YDKeyValueObserver.m */,
 			);
 			path = YDTools;
 			sourceTree = "<group>";
@@ -409,7 +407,6 @@
 				15850C0B27046A5D002F79B5 /* UIImage+YDCommon.h in Headers */,
 				15850C3827047835002F79B5 /* UITextView+YDPlaceholder.h in Headers */,
 				15850C4427047A93002F79B5 /* YDBaseUI.h in Headers */,
-				15C5BD5E28AC979700E5B1EC /* YDNetworkTools.h in Headers */,
 				15C5BD5B28AC8E6C00E5B1EC /* YDTools.h in Headers */,
 				15850C0927046A5D002F79B5 /* UIView+YDCommon.h in Headers */,
 				15850C0727046A5D002F79B5 /* UIControl+YDCommon.h in Headers */,
@@ -634,7 +631,6 @@
 				15850C1327046A5D002F79B5 /* UITableView+YDCommon.m in Sources */,
 				15850C1127046A5D002F79B5 /* UIView+YDCommon.m in Sources */,
 				15850C2927047276002F79B5 /* NSDictionary+YDCommon.m in Sources */,
-				15C5BD5F28AC979700E5B1EC /* YDNetworkTools.m in Sources */,
 				15C5BD6728ACBE6300E5B1EC /* YDVideoTools.m in Sources */,
 				15850C1527046A5D002F79B5 /* UIImage+YDCommon.m in Sources */,
 				157DCF7C28AB782400D6986A /* UILabel+YDAddtion.m in Sources */,
@@ -897,7 +893,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YDUtilKitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -926,7 +922,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YDUtilKitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
