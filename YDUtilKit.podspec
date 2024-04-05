@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YDUtilKit"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "常用工具库"
 
   spec.homepage     = "https://github.com/chong2vv/YDUtilKit"

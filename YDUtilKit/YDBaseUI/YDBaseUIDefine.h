@@ -61,9 +61,9 @@ alpha:alphaValue]
 #ifdef __cplusplus
 extern "C" {
 #endif
-    CGFloat getScreenWidth();
+CGFloat getScreenWidth(void);
     
-    CGFloat getScreenHeight();
+CGFloat getScreenHeight(void);
     
 //    // 获取状态栏竖边高度
 //    CGFloat getStatusBarHeight();
@@ -86,7 +86,7 @@ extern CGSize yd_svoidcaleImageSize(CGFloat scale, CGSize size);
 extern CGFloat yd_CGFloatPixelRound(CGFloat value);
 
 // iPad -> iPhone UI适配
-inline static CGFloat ydScaleFactor()
+inline static CGFloat ydScaleFactor(void)
 {
     // Frame缩放系数，原宽/高 * kFrameScaleFactor
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
@@ -97,7 +97,7 @@ inline static CGFloat ydScaleFactor()
 }
 
 // iPhone - >iPad  UI适配
-inline static CGFloat ydIphoneScaleFactor()
+inline static CGFloat ydIphoneScaleFactor(void)
 {
     // Frame缩放系数，原宽/高 * kFrameScaleFactor
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {

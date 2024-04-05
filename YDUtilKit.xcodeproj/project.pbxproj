@@ -100,6 +100,13 @@
 		1560B2B22AEF91D3005EB33F /* YDKeyValueObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDKeyValueObserver.m; sourceTree = "<group>"; };
 		1560B2B52AEFA73B005EB33F /* AVAsset+YDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAsset+YDCommon.h"; sourceTree = "<group>"; };
 		1560B2B62AEFA73B005EB33F /* AVAsset+YDCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+YDCommon.m"; sourceTree = "<group>"; };
+		156ED7E32BBD485A00D3FF74 /* YDDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDDownloader.h; sourceTree = "<group>"; };
+		156ED7E42BBD485A00D3FF74 /* YDDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDDownloader.m; sourceTree = "<group>"; };
+		156ED7E52BBD488900D3FF74 /* YDDispatchQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDDispatchQueue.h; sourceTree = "<group>"; };
+		156ED7E62BBD488900D3FF74 /* YDDispatchQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDDispatchQueue.m; sourceTree = "<group>"; };
+		156ED7E72BBD49B200D3FF74 /* YDDownloadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDDownloadTask.h; sourceTree = "<group>"; };
+		156ED7E82BBD49B200D3FF74 /* YDDownloadTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDDownloadTask.m; sourceTree = "<group>"; };
+		156ED7E92BBD4C5200D3FF74 /* YDTools+YDMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDTools+YDMacros.h"; sourceTree = "<group>"; };
 		157DCF7528AB47FF00D6986A /* YDStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDStack.h; sourceTree = "<group>"; };
 		157DCF7628AB47FF00D6986A /* YDStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDStack.m; sourceTree = "<group>"; };
 		157DCF7928AB782300D6986A /* UILabel+YDAddtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YDAddtion.h"; sourceTree = "<group>"; };
@@ -228,6 +235,13 @@
 				15C5BD6528ACBE6300E5B1EC /* YDVideoTools.m */,
 				1560B2B12AEF91D3005EB33F /* YDKeyValueObserver.h */,
 				1560B2B22AEF91D3005EB33F /* YDKeyValueObserver.m */,
+				156ED7E52BBD488900D3FF74 /* YDDispatchQueue.h */,
+				156ED7E62BBD488900D3FF74 /* YDDispatchQueue.m */,
+				156ED7E32BBD485A00D3FF74 /* YDDownloader.h */,
+				156ED7E42BBD485A00D3FF74 /* YDDownloader.m */,
+				156ED7E72BBD49B200D3FF74 /* YDDownloadTask.h */,
+				156ED7E82BBD49B200D3FF74 /* YDDownloadTask.m */,
+				156ED7E92BBD4C5200D3FF74 /* YDTools+YDMacros.h */,
 			);
 			path = YDTools;
 			sourceTree = "<group>";
