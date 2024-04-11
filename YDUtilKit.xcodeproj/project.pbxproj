@@ -183,6 +183,10 @@
 		15C5BD6528ACBE6300E5B1EC /* YDVideoTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDVideoTools.m; sourceTree = "<group>"; };
 		15C5BD6828ACBFFE00E5B1EC /* NSObject+YDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YDCommon.h"; sourceTree = "<group>"; };
 		15C5BD6928ACBFFE00E5B1EC /* NSObject+YDCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YDCommon.m"; sourceTree = "<group>"; };
+		15CB52A12BC7DA4C0053D98E /* UIApplication+YDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+YDCommon.h"; sourceTree = "<group>"; };
+		15CB52A22BC7DA4C0053D98E /* UIApplication+YDCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+YDCommon.m"; sourceTree = "<group>"; };
+		15CB52A32BC7DBDB0053D98E /* YDDeallocObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDDeallocObject.h; sourceTree = "<group>"; };
+		15CB52A42BC7DBDB0053D98E /* YDDeallocObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDDeallocObject.m; sourceTree = "<group>"; };
 		5CE3D810411DA31388DBE507 /* libPods-Demo-YDUtilKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-YDUtilKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4065DA1E84A738543FE9A0 /* Pods-Demo-YDUtilKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKitDemo/Pods-Demo-YDUtilKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DAF6AE710CB88B0F00AC41B7 /* Pods-Demo-YDUtilKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-YDUtilKitDemo.release.xcconfig"; path = "Target Support Files/Pods-Demo-YDUtilKitDemo/Pods-Demo-YDUtilKitDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,6 +246,8 @@
 				156ED7E72BBD49B200D3FF74 /* YDDownloadTask.h */,
 				156ED7E82BBD49B200D3FF74 /* YDDownloadTask.m */,
 				156ED7E92BBD4C5200D3FF74 /* YDTools+YDMacros.h */,
+				15CB52A32BC7DBDB0053D98E /* YDDeallocObject.h */,
+				15CB52A42BC7DBDB0053D98E /* YDDeallocObject.m */,
 			);
 			path = YDTools;
 			sourceTree = "<group>";
@@ -372,6 +378,8 @@
 				15850BEF27046A5D002F79B5 /* UIColor+YDCommon.m */,
 				15850BEE27046A5D002F79B5 /* UIControl+YDCommon.h */,
 				15850BF927046A5D002F79B5 /* UIControl+YDCommon.m */,
+				15CB52A12BC7DA4C0053D98E /* UIApplication+YDCommon.h */,
+				15CB52A22BC7DA4C0053D98E /* UIApplication+YDCommon.m */,
 				15850BED27046A5D002F79B5 /* UIDevice+YDCommon.h */,
 				15850BF527046A5D002F79B5 /* UIDevice+YDCommon.m */,
 				15850C2A270475D4002F79B5 /* UIWindow+YDScreenShot.h */,
