@@ -38,6 +38,7 @@ Pod::Spec.new do |spec|
       uk_ss.source_files = "YDUtilKit/YDUIKit/**/*"
       uk_ss.dependency 'YDUtilKit/YDBaseUI'
       uk_ss.dependency 'YDUtilKit/YDFoundation'
+      uk_ss.dependency 'YDUtilKit/YDTools'
   end
   
   spec.subspec 'YDBaseUI' do |bu_ss|
