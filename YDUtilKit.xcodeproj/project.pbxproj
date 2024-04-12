@@ -75,6 +75,7 @@
 		15C5BD6728ACBE6300E5B1EC /* YDVideoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD6528ACBE6300E5B1EC /* YDVideoTools.m */; };
 		15C5BD6A28ACBFFE00E5B1EC /* NSObject+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD6828ACBFFE00E5B1EC /* NSObject+YDCommon.h */; };
 		15C5BD6B28ACBFFE00E5B1EC /* NSObject+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD6928ACBFFE00E5B1EC /* NSObject+YDCommon.m */; };
+		15CB52A52BC8D5DB0053D98E /* YDDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CB52A42BC7DBDB0053D98E /* YDDeallocObject.m */; };
 		D925A7C13E8B4BF7CC5BEE05 /* libPods-Demo-YDUtilKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE3D810411DA31388DBE507 /* libPods-Demo-YDUtilKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -246,8 +247,6 @@
 				156ED7E72BBD49B200D3FF74 /* YDDownloadTask.h */,
 				156ED7E82BBD49B200D3FF74 /* YDDownloadTask.m */,
 				156ED7E92BBD4C5200D3FF74 /* YDTools+YDMacros.h */,
-				15CB52A32BC7DBDB0053D98E /* YDDeallocObject.h */,
-				15CB52A42BC7DBDB0053D98E /* YDDeallocObject.m */,
 			);
 			path = YDTools;
 			sourceTree = "<group>";
@@ -255,6 +254,7 @@
 		15850B9327046736002F79B5 = {
 			isa = PBXGroup;
 			children = (
+				1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */,
 				15850B9F27046736002F79B5 /* YDUtilKit */,
 				15850BAE270468DF002F79B5 /* YDUtilKitDemo */,
 				15850BCA270468E1002F79B5 /* YDUtilKitDemoTests */,
@@ -279,7 +279,6 @@
 		15850B9F27046736002F79B5 /* YDUtilKit */ = {
 			isa = PBXGroup;
 			children = (
-				1585AA2128ABFFD60022FE9E /* YDUtilKit.podspec */,
 				15850BA027046736002F79B5 /* YDUtilKit.h */,
 				15850BE327046A5D002F79B5 /* YDFoundation */,
 				15850C4227047A73002F79B5 /* YDBaseUI */,
@@ -344,6 +343,8 @@
 				15C5BD6928ACBFFE00E5B1EC /* NSObject+YDCommon.m */,
 				1560B2B52AEFA73B005EB33F /* AVAsset+YDCommon.h */,
 				1560B2B62AEFA73B005EB33F /* AVAsset+YDCommon.m */,
+				15CB52A32BC7DBDB0053D98E /* YDDeallocObject.h */,
+				15CB52A42BC7DBDB0053D98E /* YDDeallocObject.m */,
 			);
 			path = YDFoundation;
 			sourceTree = "<group>";
@@ -646,6 +647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15850C0327046A5D002F79B5 /* NSDate+YDCommon.m in Sources */,
+				15CB52A52BC8D5DB0053D98E /* YDDeallocObject.m in Sources */,
 				15C5BD6B28ACBFFE00E5B1EC /* NSObject+YDCommon.m in Sources */,
 				15850C1F27046FFC002F79B5 /* NSFileManager+YDCommon.m in Sources */,
 				15850BFF27046A5D002F79B5 /* NSData+YDCommon.m in Sources */,
