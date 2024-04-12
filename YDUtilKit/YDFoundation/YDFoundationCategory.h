@@ -16,3 +16,4 @@
 #import "NSString+YDCommon.h"
 #import "NSObject+YDCommon.h"
 #import "AVAsset+YDCommon.h"
+#import "YDDeallocObject.h"

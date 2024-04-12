@@ -13,5 +13,4 @@
 #import "YDKeyValueObserver.h"
 #import "YDDownloader.h"
 #import "YDDownloadTask.h"
-#import "YDDeallocObject.h"
 #import "YDDispatchQueue.h"
