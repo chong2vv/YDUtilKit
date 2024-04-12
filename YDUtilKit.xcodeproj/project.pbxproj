@@ -75,7 +75,9 @@
 		15C5BD6728ACBE6300E5B1EC /* YDVideoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD6528ACBE6300E5B1EC /* YDVideoTools.m */; };
 		15C5BD6A28ACBFFE00E5B1EC /* NSObject+YDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BD6828ACBFFE00E5B1EC /* NSObject+YDCommon.h */; };
 		15C5BD6B28ACBFFE00E5B1EC /* NSObject+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD6928ACBFFE00E5B1EC /* NSObject+YDCommon.m */; };
-		15CB52A52BC8D5DB0053D98E /* YDDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CB52A42BC7DBDB0053D98E /* YDDeallocObject.m */; };
+		15CB52A62BC8D8890053D98E /* AVAsset+YDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1560B2B62AEFA73B005EB33F /* AVAsset+YDCommon.m */; };
+		15CB52A72BC8D88C0053D98E /* YDDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CB52A42BC7DBDB0053D98E /* YDDeallocObject.m */; };
+		15CB52A82BC8D8970053D98E /* YDDeallocObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CB52A32BC7DBDB0053D98E /* YDDeallocObject.h */; };
 		D925A7C13E8B4BF7CC5BEE05 /* libPods-Demo-YDUtilKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE3D810411DA31388DBE507 /* libPods-Demo-YDUtilKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -440,6 +442,7 @@
 				15850BA327046736002F79B5 /* YDUtilKit.h in Headers */,
 				15850C2827047276002F79B5 /* NSDictionary+YDCommon.h in Headers */,
 				15850C4727047B4A002F79B5 /* YDBaseUIDefine.h in Headers */,
+				15CB52A82BC8D8970053D98E /* YDDeallocObject.h in Headers */,
 				15850C1E27046FFC002F79B5 /* NSFileManager+YDCommon.h in Headers */,
 				15850C2527047115002F79B5 /* YDUIKitCategory.h in Headers */,
 				15C5BD6A28ACBFFE00E5B1EC /* NSObject+YDCommon.h in Headers */,
@@ -647,7 +650,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				15850C0327046A5D002F79B5 /* NSDate+YDCommon.m in Sources */,
-				15CB52A52BC8D5DB0053D98E /* YDDeallocObject.m in Sources */,
 				15C5BD6B28ACBFFE00E5B1EC /* NSObject+YDCommon.m in Sources */,
 				15850C1F27046FFC002F79B5 /* NSFileManager+YDCommon.m in Sources */,
 				15850BFF27046A5D002F79B5 /* NSData+YDCommon.m in Sources */,
@@ -655,10 +657,12 @@
 				15850C0A27046A5D002F79B5 /* UITextField+YDCommon.m in Sources */,
 				15850C3127047617002F79B5 /* UIView+YDWhenTappedBlocks.m in Sources */,
 				15850C3927047835002F79B5 /* UITextView+YDPlaceholder.m in Sources */,
+				15CB52A72BC8D88C0053D98E /* YDDeallocObject.m in Sources */,
 				15850C0227046A5D002F79B5 /* NSArray+YDCommon.m in Sources */,
 				15850C1327046A5D002F79B5 /* UITableView+YDCommon.m in Sources */,
 				15850C1127046A5D002F79B5 /* UIView+YDCommon.m in Sources */,
 				15850C2927047276002F79B5 /* NSDictionary+YDCommon.m in Sources */,
+				15CB52A62BC8D8890053D98E /* AVAsset+YDCommon.m in Sources */,
 				15C5BD6728ACBE6300E5B1EC /* YDVideoTools.m in Sources */,
 				15850C1527046A5D002F79B5 /* UIImage+YDCommon.m in Sources */,
 				157DCF7C28AB782400D6986A /* UILabel+YDAddtion.m in Sources */,
