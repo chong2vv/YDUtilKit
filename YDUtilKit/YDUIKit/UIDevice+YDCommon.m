@@ -158,6 +158,48 @@
     return name;
 }
 
+- (int64_t)fileSystemSize {
+    NSError *error = nil;
+    NSDictionary *attributes = [[NSFileManager defaultManager] attributesOfFileSystemForPath:NSHomeDirectory() error:&error];
+    if (error == nil) {
+        int64_t size =  [[attributes objectForKey:NSFileSystemSize] longLongValue];
+        if (size < 0) {
+            size = 0;
+        }
+        return size;
+    }
+    return 0;
+}
+
+- (int64_t)fileSystemFreeSize {
+    NSError *error = nil;
+    NSDictionary *attributes = [[NSFileManager defaultManager] attributesOfFileSystemForPath:NSHomeDirectory() error:&error];
+    if (error == nil) {
+        int64_t size =  [[attributes objectForKey:NSFileSystemFreeSize] longLongValue];
+        if (size < 0) {
+            size = 0;
+        }
+        return size;
+    }
+    return 0;
+}
+
+- (int64_t)fileSystemUsedSize {
+    return self.fileSystemSize - self.fileSystemFreeSize;
+}
+
+- (int)cpuBits {
+    return sizeof(void *) * 8;
+}
+
+- (int)cpuType {
+    cpu_type_t type;
+    size_t size = sizeof(type);
+    sysctlbyname("hw.cputype", &type, &size, NULL, 0);
+    return type;
+}
+
+
 - (NSDate *)systemUptime {
     NSTimeInterval time = [[NSProcessInfo processInfo] systemUptime];
     return [[NSDate alloc] initWithTimeIntervalSinceNow:(0 - time)];
