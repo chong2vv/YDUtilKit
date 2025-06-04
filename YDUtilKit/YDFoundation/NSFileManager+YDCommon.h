@@ -52,6 +52,18 @@ NS_ASSUME_NONNULL_BEGIN
 // 保证该文件目录存在
 - (void)createDirectoryAtFilePath:(NSString *)aFilePath;
 
+// Documents
++ (nullable NSString *)documentDirectory;
++ (nullable NSString *)documentDirectory:(NSString *)subpath;
++ (nullable NSString *)documentFile:(NSString *)file;
++ (nullable NSString *)documentFile:(NSString *)file inDirectory:(NSString *)subpath;
+
+// Temporary
++ (nullable NSString *)temporaryDirectory;
++ (nullable NSString *)temporaryDirectory:(NSString *)subpath;
++ (nullable NSString *)temporaryFile:(NSString *)file;
++ (nullable NSString *)temporaryFile:(NSString *)file inDirectory:(NSString *)subpath;
+
 @end
 
 NS_ASSUME_NONNULL_END

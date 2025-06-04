@@ -9,6 +9,59 @@
 
 @implementation NSFileManager (YDCommon)
 
++ (NSString*)documentDirectory {
+    return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+}
+
++ (NSString*)documentDirectory:(NSString *)subpath {
+    NSString *path = [NSFileManager documentDirectory];
+    if (subpath.length > 0) {
+        BOOL isDir = NO;
+        path = [path stringByAppendingPathComponent:subpath];
+        if (![[NSFileManager defaultManager] fileExistsAtPath:path isDirectory:&isDir] && isDir == NO) {
+            [[NSFileManager defaultManager] createDirectoryWithPath:path];
+        }
+    }
+    return path;
+}
+
++ (NSString*)documentFile:(NSString*)file {
+    NSString *path = [NSFileManager documentDirectory];
+    return [path stringByAppendingPathComponent:file];
+}
+
++ (NSString*)documentFile:(NSString *)file inDirectory:(NSString *)subpath {
+    NSString *path = [NSFileManager documentDirectory:subpath];
+    return [path stringByAppendingPathComponent:file];
+}
+
++ (NSString *)temporaryDirectory {
+    return NSTemporaryDirectory();
+}
+
++ (NSString*)temporaryDirectory:(NSString *)subpath {
+    NSString *path = [NSFileManager temporaryDirectory];
+    if (subpath.length > 0) {
+        BOOL isDir = NO;
+        path = [path stringByAppendingPathComponent:subpath];
+        if (![[NSFileManager defaultManager] fileExistsAtPath:path isDirectory:&isDir] && isDir == NO) {
+            [[NSFileManager defaultManager] createDirectoryWithPath:path];
+        }
+    }
+    return path;
+}
+
++ (NSString *)temporaryFile:(NSString *)file {
+    NSString *path = [NSFileManager temporaryDirectory];
+    return [path stringByAppendingPathComponent:file];
+}
+
++ (NSString *)temporaryFile:(NSString *)file inDirectory:(NSString *)subpath {
+    NSString *path = [NSFileManager temporaryDirectory:subpath];
+    return [path stringByAppendingPathComponent:file];
+}
+
+
 - (NSUInteger)cleanDiskPath:(NSString *)filePath maxCacheSize:(NSUInteger)maxCacheSize {
     return [self cleanDiskPath:filePath maxCacheAge:-1 maxCacheSize:maxCacheSize];
 }
