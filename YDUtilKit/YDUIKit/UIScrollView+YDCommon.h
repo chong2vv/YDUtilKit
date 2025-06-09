@@ -12,6 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIScrollView (YDCommon)
 
+/// @brief 冻结滚动
+/// @attention 注意：设置为 true 时会解冻 freezedViews 内的视图
+@property (nonatomic, assign) BOOL isScrollFreezed;
+/// @brief 当本视图冻结滚动时，解冻其它冻结的视图
+@property (nonatomic, readonly, nonnull) NSHashTable<UIScrollView *> *freezedViews;
+/// @brief 冻结滚动的底层视图（父视图），需要同时识别多个手势，默认为 NO。
+/// @discussion The super view needs recognize multiple gestures simultaneously.
+@property (nonatomic, assign) BOOL shouldRecognizeSimultaneously;
+
 /*=========== 默认开启动画 ===========*/
 /**
  滑动到顶部
